@@ -1,0 +1,10 @@
+<div class="container text-center">
+
+<h1> <%= @flat.name %></h1>
+<ul class="list-group">
+<li class="list-group-item"><strong>Addresse :</strong> <%= @flat.address %></li>
+</ul>
+
+<%= link_to "Back to flats list", flats_path, class: "btn btn-primary" %>
+<%= link_to "Edit flat", edit_flat_path(@flat), class: "btn btn-primary" %>
+</div>

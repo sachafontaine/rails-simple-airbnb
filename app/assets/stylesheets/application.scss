@@ -1,0 +1,43 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+
+.flat-card {
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #095FD6;
+  border-radius: 5px;
+}
+
+.flat-card-content {
+  padding: 24px;
+  background-color: #F8F9FA;
+}
+
+.flat-card-actions {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgba(160,160,160,0.2);
+  padding: 16px 24px;
+}
+
+.navbar-custom {
+  background-color: #095FD6;
+}
+.navbar-custom a {
+  color: white;
+}
+
+.flat-card-image {
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+}

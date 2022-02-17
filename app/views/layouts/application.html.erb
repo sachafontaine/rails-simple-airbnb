@@ -3,6 +3,7 @@
   <head>
     <title>RailsSimpleAirbnb</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://kit.fontawesome.com/65406aff1a.js" crossorigin="anonymous"></script>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +12,14 @@
   </head>
 
   <body>
+<nav class="navbar navbar-custom mb-5">
+    <div class="container">
+      <a href="/flats" class="navbar-brand">Simple Airbnb</a>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a class="btn btn-outline-primary" href="/flats/new">Add Flat</a></li>
+      </ul>
+    </div>
+  </nav>
     <%= yield %>
   </body>
 </html>
